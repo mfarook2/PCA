@@ -56,6 +56,7 @@ Inside `fetch_aggregated_metrics`, adjust:
 - `metrics` (list of metric specs, e.g. `delayVarAvg`, `jitterAvg`, etc.)
 
 Refer to the API docs for full field definitions.
+The metrics retrieval API is https://api.accedian.io/session.html#tag/MetricsServiceV3/operation/GetDerivedMetricsGroupByV3
 
 ## License
 
