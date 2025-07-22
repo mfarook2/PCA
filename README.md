@@ -36,7 +36,7 @@ PASSWORD     = your_password
 # Granularity for both session and interface metrics (ISO 8601 duration)
 granularity       = PT5M
 # Time window in ISO8601 form: start/end
-timeinterval       = 2025-07-21T20:48:33.657Z/2025-07-21T21:48:33.657Z
+timeinterval       = <START_TIME>/2<END_TIME>
 # List of ["objectId","objectType"] pairs; supported types:
 #   - twamp-sf
 #   - cisco-telemetry-xe-interface
