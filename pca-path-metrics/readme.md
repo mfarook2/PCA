@@ -76,7 +76,6 @@ pip install -r requirements.txt
 python3 pca_metrics.py > metrics_output.json
 ```
 
-```
-Refer to the API docs for full field definitions. The metrics retrieval API is https://api.accedian.io/session.html#tag/MetricsServiceV3/operation/GetDerivedMetricsGroupByV3
-```
+Refer to the API docs for full field definitions.
+The metrics retrieval API is https://api.accedian.io/session.html#tag/MetricsServiceV3/operation/GetDerivedMetricsGroupByV3
 
