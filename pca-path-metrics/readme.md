@@ -1,7 +1,6 @@
 **PCA Metrics Collector**
 
 This script fetches TWAMP session and interface metrics from the Cisco Provider Connectivity Assurance (PCA) API.
-Refer to the API docs for full field definitions. The metrics retrieval API is https://api.accedian.io/session.html#tag/MetricsServiceV3/operation/GetDerivedMetricsGroupByV3
 ---
 
 ## Prerequisites
@@ -75,5 +74,9 @@ pip install -r requirements.txt
 
 ```bash
 python3 pca_metrics.py > metrics_output.json
+```
+
+```
+Refer to the API docs for full field definitions. The metrics retrieval API is https://api.accedian.io/session.html#tag/MetricsServiceV3/operation/GetDerivedMetricsGroupByV3
 ```
 
