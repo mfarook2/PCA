@@ -59,7 +59,7 @@ It will output metrics for each monitored object. If you want informational logs
 Create a file named `requirements.txt` in the same directory with the following contents:
 
 ```
-requests>=2.25.1
+requests
 ```
 
 Install with:
