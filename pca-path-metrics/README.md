@@ -6,7 +6,7 @@ This script fetches TWAMP session and interface metrics from the Cisco Provider 
 ## Prerequisites
 
 - Python 3.8 or newer
-- Internet access to `https://playground.dhus-labs.analytics.accedian.io`
+- Internet access to Accedian tenant
 
 ## Installation
 
@@ -27,7 +27,7 @@ Create a file named `config.ini` alongside `pca_metrics.py` with the following s
 
 ```ini
 [auth]
-PCA_BASE_URL = https://playground.dhus-labs.analytics.accedian.io
+PCA_BASE_URL = https://tenant.analytics.accedian.io
 USERNAME     = your_username@company.com
 PASSWORD     = your_password
 
