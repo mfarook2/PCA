@@ -86,7 +86,7 @@ def get_bearer_token():
     data    = {"username": USERNAME, "password": PASSWORD}
 
     logger.info("Authenticating to PCA...")
-    resp = requests.post(url, headers=headers, data=data)
+    resp = requests.post(url, headers=headers, data=data, verify=False)
     resp.raise_for_status()
 
     auth = resp.headers.get("authorization", "")
@@ -127,7 +127,7 @@ def fetch(token, oid, cfg):
     }
 
     # Perform the API call
-    resp = requests.post(url, headers=headers, json=payload)
+    resp = requests.post(url, headers=headers, json=payload, verify=False)
     try:
         resp.raise_for_status()
     except requests.HTTPError as e:
